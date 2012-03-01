@@ -105,105 +105,16 @@ td { vertical-align: top; }
 
 
 body { font-family: 'Open Sans', sans-serif;}
-header { 
-    height:107px; 
-    background: white;
-}
-header h1 { width:481px; background: url(../img/header.png) top left no-repeat; height: 107px; padding: 0px; margin: 0px; text-indent: -999px; overflow: hidden}
-navigation { 
-    height: 43px;
-    background: url(../img/navigation.png) top left repeat-x;
-    display: block;
-    line-height: 43px;
-    font-size:13px;
-
-}
-navigation a img { margin-bottom: 4px;}
-navigation a, navigation a:link, navigation a:visited { color: #504040;  margin-right: 37px; padding-left: 7px; display: block; float: left; height: 43px; line-height: 43px; text-decoration: none}
-navigation a.active { font-weight: 600; color:#a55d00}
-div#producedby { width: 344px; height: 107px; background: url(../img/banner1.png) top right no-repeat; padding: 0px; margin: 0px; float: right; }
-/*div#producedby span { display: none;}*/
-footer .copyright { color: #bfb6af; font-size: 10px; line-height: 17px; height: 17px; vertical-align: middle}
-footer .row { margin-bottom: 48px}
-footer { padding-top: 50px;}
-.social { vertical-align: top; }
-footer .social { float: right;}
-header .social { padding-top: 66px;}
-div.social-g, div.social-twitter, div.social-fb { float: right; }
-div.social-g, div.social-twitter { padding-top: 2px;}
-footer .nav a {
-    float: left;
-    height: 27px;
-    line-height: 27px;
-    vertical-align: middle;
-    padding-left:7px;
-    margin-right:34px;
-}
-footer a, footer a:visited, footer a:link { color:#351A08; text-decoration: none; font-size: 11px}
-#frame { background: url(../img/noise.png) top left repeat;}
-#content { background: url(../img/birds.png) bottom left no-repeat;}
-h2 { padding-top: 28px; margin-top: 0px; font-weight: 300; color:#351a08; font-size: 32px; margin-bottom: 20px}
-h3 { font-size: 15px; font-weight: 300; color:#351a08; line-height:41px; height: 41px; margin-top:0px}
-/*a#regnow { float:right}*/
 
 
-a, a:link, a:visited { color: #ff003c; text-decoration: none}
-footer { background: url(../img/bead.png) top left repeat-x; display: block}
+#frame { width: 1024px; margin: 20px auto;}
+footer{padding:12px 0px;color:#e0e0e0;margin-top:100px;padding:12px;border-top:1px solid #cacaca;}
+footer .right img{float:right;padding-left:12px;}
+.jsconf{height:48px;color:#626266;vertical-align:middle;font-size:10px;padding:0px;margin:0px;line-height:22px;}
+.jsconf img { vertical-align:middle;}
+a img { border: 0px;}
+.right { float: right;}
 
-
-#rightrail { background: url(../img/rightrailmid.jpg) top left repeat-y;}
-#rightrailtop { background: url(../img/rightrailtop.jpg) top left no-repeat; }
-#rightrailbottom {
-    background: url(../img/rightrailbottom.jpg) bottom left no-repeat;
-    padding-top: 30px;
-    padding-left: 25px;
-    padding-bottom: 151px;
-}
-
-#twitter_accounts { color: #ff003c; font-size: 12px; margin-top: 6px;}
-#twitter_accounts a, #twitter_accounts a:visited, #twitter_accounts a:link { color: #ff003c; text-decoration: none; }
-#twitter_hash a, #twitter_hash a:link, #twitter_hash a:visited { color: black; text-decoration: none;}
-#twitter_hash{ margin: 6px 0px 12px; font-size: 12px;}
-.twtr-widget h3 { height: auto}
-
-#social, #organizers { padding-top: 35px; padding-bottom: 25px;}
-
-
-#sponsors .sponsor { margin-top: 30px;}
-#sponsors { padding-bottom: 25px;}
-h4 { font-weight: 300; margin-top:25px; margin-bottom: 15px; font-size:22px}
-#splash { margin: 25px 0px; text-align: center;}
-#main { padding-bottom: 210px}
-.reason { font-size: 14px; line-height: 38px;}
-#main p { font-size: 14px;}
-.reason span { font-weight: bold; margin-right: 10px}
-navigation .active { color:#a55d00; font-weight: bold}
-
-
-#leadin { margin-top: 30px; text-align: center; margin-bottom: 40px }
-
-.social a { margin-right: 11px}
-#speakerlist .social a { margin-right: 4px; }
-#speakerlist .pic { padding-top: 10px; }
-#speakerlist .col3 { 200px; }
-#speakerlist .col5 { margin-left: 4px; width: 410px}
-.pic .url a { font-size: 13px; color: #323333}
-.split { margin-bottom: 50px; margin-top: 40px;}
-.name { color: #351a08; font-weight: 200; font-size: 22px; margin-bottom: 15px; }
-.bio { font-size: 13px; }
-.title { font-size: 15px; margin-bottom: 6px;}
-#speakerlist .name { margin-bottom: 6px; }
-.split .social { font-size: 12px; padding-top: 8px; vertical-align: middle; line-height: 17px; height: 17px;}
-.social img { vertical-align: middle}
-
-#orglist p { margin-top: 0px; }
-#orglist .pic { padding-top: 10px; }
-#orglist .social { padding-top: 10px; }
-#orglist .twitter { float: left;}
-#orglist .fb_iframe_widget { float: left; padding-top: 1px }
-
-.talk { margin: 20px 0px; font-size:13px; }
-.talk ul { margin: 0px; padding: 0px; list-style: none; }
-.talk li:before { content: "- " }
-
-hr { border: 0px; height: 0px; border-top: 1px solid #d5d5d5; margin: 25px 0px;}
+header { background: url(../img/conferenceers.png) top center no-repeat; height: 200px}
+header h1 { display: none; }
+header h2 { display: none; }
